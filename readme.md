@@ -13,6 +13,7 @@ This tool allows you to compare product listings from multiple e-commerce websit
 
 - Python 3.x
 - Libraries: requests, pandas, numpy, BeautifulSoup
+- IDE google Colab
 
 ## Usage
 
@@ -26,7 +27,7 @@ This tool allows you to compare product listings from multiple e-commerce websit
 
 5. Enter the product name when prompted.
 
-6. View the comparison results displayed in the console.
+6. View the comparison results displayed .
 
 Contributing
 Contributions are welcome! Please open an issue or submit a pull request with any improvements or fixes.
