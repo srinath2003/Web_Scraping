@@ -28,44 +28,11 @@ You can install the required libraries using the following command:
 ```bash
 pip install requests beautifulsoup4 pandas fake_useragent
 ```
-
-Here is a README file template for your Amazon scraper project:
-
-# Amazon Product Scraper
-
-This is a Python script to scrape product details from Amazon India. The scraper fetches data such as product name, price, ratings, original price, and discount percentage, and saves the information in a CSV file.
-
-## Features
-
-- **Scrape Amazon India**: The script scrapes product data based on a given search term.
-- **Product Details**: Fetches details such as:
-  - Product name
-  - Price
-  - Original price
-  - Discount percentage
-  - Ratings and rating count
-- **Save Data**: Data is saved to a CSV file with a timestamp for uniqueness.
-
-## Requirements
-
-Before running the script, ensure you have the following Python libraries installed:
-
-- `requests`
-- `beautifulsoup4`
-- `pandas`
-- `fake_useragent`
-- `requests.adapters`
-
-You can install the required libraries using the following command:
-
-```bash
-pip install requests beautifulsoup4 pandas fake_useragent
-```
 ## How to Use
 
-    Clone this repository to your local machine:
+   Clone this repository to your local machine:
 ```
-git clone 
+git clone https://github.com/srinath2003/Web_Scraping.git
 ```
 Navigate to the project directory:
 ```
