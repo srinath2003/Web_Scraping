@@ -22,6 +22,7 @@ Before running the script, ensure you have the following Python libraries instal
 - `pandas`
 - `fake_useragent`
 - `requests.adapters`
+- `Airflow`
 
 You can install the required libraries using the following command:
 
@@ -48,19 +49,19 @@ Run the scraper:
 ```
    The script will scrape the data and save it as a CSV file in a folder named amazon_extract_data in your current directory.
 
-Code Explanation
+## Code Explanation
 
     Requests: The requests library is used to send HTTP requests to Amazon's product search page.
     BeautifulSoup: BeautifulSoup is used to parse the HTML response and extract product information.
     Pandas: The scraped data is organized into a Pandas DataFrame and saved as a CSV file.
     Retries and Delays: The script includes retry logic in case of failures (e.g., HTTP 503) and a delay to avoid overwhelming the server.
 
-Troubleshooting
+## Troubleshooting
 
     HTTP 503 errors: Amazon may block requests if too many are sent in quick succession. The script includes retry logic and a delay between requests to help avoid this issue. If you still face errors, consider rotating your IP address using proxies.
     Missing product data: The script scrapes available product details, but Amazon’s product pages may vary. Some data (e.g., ratings or original prices) may not be available for all products.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 Author
 ## Author
