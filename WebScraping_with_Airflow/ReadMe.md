@@ -61,7 +61,11 @@ Troubleshooting
     Missing product data: The script scrapes available product details, but Amazon’s product pages may vary. Some data (e.g., ratings or original prices) may not be available for all products.
 
 License
-
-
 This project is licensed under the MIT License - see the LICENSE file for details.
 Author
+## Author
+Srinath R
+- Email: srinathranganathan432@gmail.com
+- LinkedIn: https://www.linkedin.com/in/srinath2003/
+- GitHub: https://github.com/srinath2003
+- Medium: https://medium.com/@srinath2003
